@@ -1,0 +1,14 @@
+svg {
+  height: auto;
+  width: 50%;
+  /* border:1px dotted grey; */
+}
+svg rect:hover {
+  cursor: pointer;
+}
+rect[y] {
+  transition: all 0.5s;
+}
+svg:active rect[y] {
+  height: 200;
+}
